@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentos.FragmentPerfil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/Txt_perfil"
+            android:text="@string/Txt_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#2E3A59"
+            android:layout_marginTop="10dp"
+            android:padding="12dp" />
+
+        <ImageView
+            android:id="@+id/Tv_perfil"
+            android:layout_below="@+id/Txt_perfil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/perfil"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:elevation="6dp" />
+
+        <TextView
+            android:id="@+id/Txt_informacion"
+            android:text="@string/Txt_informacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#2E3A59"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/Tv_perfil"
+            android:padding="8dp" />
+
+        <!-- Nombres -->
+        <TextView
+            android:id="@+id/Txt_nombres"
+            android:text="@string/Txt_nombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/Txt_informacion"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/Tv_nombres"
+            android:text="@string/Tv_nombres"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#2E3A59"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/Txt_informacion"
+            android:padding="6dp" />
+
+        <!-- Email -->
+        <TextView
+            android:id="@+id/Txt_email"
+            android:text="@string/Txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Txt_nombres"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/Tv_email"
+            android:text="@string/Tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#2E3A59"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Tv_nombres"
+            android:padding="6dp" />
+
+        <!-- Fecha nacimiento -->
+        <TextView
+            android:id="@+id/Txt_nacimiento"
+            android:text="@string/Txt_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Txt_email"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/Tv_nacimiento"
+            android:text="@string/Tv_nacimiento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#2E3A59"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Tv_email"
+            android:padding="6dp" />
+
+        <!-- Miembro desde -->
+        <TextView
+            android:id="@+id/Txt_miembro"
+            android:text="@string/Txt_miembro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Txt_nacimiento"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/Tv_miembro"
+            android:text="@string/Tv_miembro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#2E3A59"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Tv_nacimiento"
+            android:padding="6dp" />
+
+        <!-- Teléfono -->
+        <TextView
+            android:id="@+id/Txt_telefono"
+            android:text="@string/Txt_telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Txt_miembro"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/Tv_telefono"
+            android:text="@string/Tv_telefono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#2E3A59"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Tv_miembro"
+            android:padding="6dp" />
+
+        <!-- Estado cuenta -->
+        <TextView
+            android:id="@+id/Txt_estado_cuenta"
+            android:text="@string/Txt_estado_cuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Txt_telefono"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/Tv_estado_cuenta"
+            android:text="@string/Tv_estado_cuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textColor="@android:color/white"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/Tv_telefono"
+            android:padding="6dp" />
+
+
+        <TextView
+            android:id="@+id/TxtOpciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TxtOpciones"
+            android:layout_below="@id/Txt_estado_cuenta"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Btn_editar_perfil"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/m_button_height"
+            android:text="@string/Btn_editar_perfil"
+            android:layout_below="@id/TxtOpciones"
+            android:textAllCaps="true"/>
+
+    <com.google.android.material.button.MaterialButton
+       android:id="@+id/Btn_cerrar_sesion"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/m_button_height"
+        android:text="@string/Btn_cerrar_sesion"
+        android:layout_below="@id/Btn_editar_perfil"
+        android:textAllCaps="true"/>
+
+
+
+
+</RelativeLayout>
+</RelativeLayout>

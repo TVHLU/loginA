@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">MyLoginApp</string>
+    <string name="Item_Inicio">Inicio</string>
+    <string name="Item_Perfil">Perfil</string>
+    <string name="item_Configuracion">Configuración</string>
+    <string name="TituloRl">titulo</string>
+    <string name="Ingresar_email">Ingresar con Email</string>
+    <string name="Ingresar_google">Ingresar con Google</string>
+    <string name="Txt_login">Login de Usuario</string>
+    <string name="Et_email">Email</string>
+    <string name="Et_password">Password</string>
+    <string name="Btn_Ingresar">Ingresar</string>
+    <string name="Txt_no_cuenta">¿No tienes una cuenta?</string>
+    <string name="Txt_registrarme">Registrarme</string>
+    <string name="Txt_registro">Registro de Usuario</string>
+    <string name="Et_r_password">Repetir Password</string>
+    <string name="Btn_registrar">Registrar</string>
+    <string name="default_web_client_id">87112564232-pq1u0l4i3316n200f5av2ub9jrd63kub.apps.googleusercontent.com</string>
+
+    <string name="Txt_perfil">Perfil de usuario</string>
+    <string name="Txt_informacion">Información: </string>
+    <string name="Txt_nombres">Nombres: </string>
+    <string name="Tv_nombres">Nombres completos</string>
+    <string name="Txt_email">Email: </string>
+    <string name="Tv_email">email@dominio.com</string>
+    <string name="Txt_nacimiento">Fecha de nac: </string>
+    <string name="Tv_nacimiento">dd/mm/aaaa</string>
+    <string name="Txt_miembro">Miembro desde: </string>
+    <string name="Tv_miembro">dd/mm/aaaa</string>
+    <string name="Txt_telefono">Teléfono: </string>
+    <string name="Tv_telefono">999999999</string>
+    <string name="Txt_estado_cuenta">Estado de cuenta: </string>
+    <string name="Tv_estado_cuenta">No verificado</string>
+    <string name="TxtOpciones">Opciones</string>
+    <string name="Btn_editar_perfil">Editar</string>
+    <string name="Btn_cerrar_sesion">Cerrar Sesion</string>
+
+    <string name="Txt_editar_p">Editar perfil</string>
+    <string name="Et_nombres">Nombres completos</string>
+    <string name="Et_f_nac">Fecha de nac.</string>
+    <string name="Cod_tef"> +00 </string>
+    <string name="Et_telefono">Teléfono</string>
+    <string name="Btn_actualizar">Actualizar</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

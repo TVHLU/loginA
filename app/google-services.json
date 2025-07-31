@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "87112564232",
+    "firebase_url": "https://my-login-app-a026a-default-rtdb.firebaseio.com",
+    "project_id": "my-login-app-a026a",
+    "storage_bucket": "my-login-app-a026a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:87112564232:android:6d5b5863897321b5711bbd",
+        "android_client_info": {
+          "package_name": "com.tecnocajas.myloginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "87112564232-5nt0in52fufp8cdvk2pest76he8uag9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tecnocajas.myloginapp",
+            "certificate_hash": "375757b06a79319d029ec44fe03d15d5dd5404d0"
+          }
+        },
+        {
+          "client_id": "87112564232-pq1u0l4i3316n200f5av2ub9jrd63kub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzWWbPNYOyGGXLDRHovoTGuTte3eMhkms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "87112564232-pq1u0l4i3316n200f5av2ub9jrd63kub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
